@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.top-header{
+    
+    font-size: 13px;
+    line-height: 36px;
+    color: #b8b8b8;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 99999;
+}
+.top-header-phonenumber{
+    display: flex;
+    color: #999999;
+    float: left;
+}
+
+.phone-number{
+    font-family: "Dosis", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fa{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #9ac100;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.login{
+    
+    border-right: 0.5px solid gray;
+    
+}
+
+.user{
+    padding: 0 10px;
+    display: flex;
+}
+
+.user a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'ABeeZee', Arial, sans-serif;
+    font: 13px;
+    color: #B8B8B8;
+}
+
+.top-header-inner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: 9999
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.user a:hover{
+    color: #9ac100;
+}
+
+.cart a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    
+    text-indent: -9999em;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    font-size: 0
+}
+.cart{
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart-count{
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    top: -11px;
+    right: -11px;
+    font-size: 11px;
+    text-indent: 0;
+    background: #9ac100;
+    border-radius: 50%;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center !important;
+}
+
+.nav-left{
+    
+    float: left;
+    max-width: 100%;
+    
+}
+
+.nav-left ul{
+    display: flex;
+    
+    
+}
+
+.nav-left ul li{
+    float: none;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    padding-right: 20px;
+    font-family: "Dosis", Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo{
+    flex: 0 0 auto;
+    padding: 0 80px;
+    margin-top: -30px
+}
+
+.logo a{
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.nav-right ul{
+    display: flex;
+}
+
+.nav-right ul li{
+    float: none;
+    text-align: left;
+    position: relative;
+    margin: 0;
+    padding-right: 20px;
+    font-family: "Dosis", Arial, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sub-nav{
+    border-top: 2px solid #9ac100;
+    margin-top: -2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 300;
+    top: 100%;
+    width: 250px;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+.nav-item{
+    font-size: 14px;
+    display: block;
+    position: relative;
+    padding: 12px;
+    color: #575757;
+}
+
+.nav-item a{
+    font-size: 14px;
+    display: block;
+    position: relative;
+    padding: 12px;
+    color: #575757;
+    border-top: 1px dotted #9ac100;
+}
+
+.sub-nav li:first-child a{
+    border-width: 0;
+}
+
+.nav-hover{
+    list-style-type: none;
+    
+}
+
+.nav-hover:hover + .sub-nav{
+    display: block;
+}
+
+.nav-left .nav-hover:first-child{
+    border-width: 0;
+}
